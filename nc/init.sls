@@ -1,0 +1,2 @@
+nc:
+  pkg.installed
