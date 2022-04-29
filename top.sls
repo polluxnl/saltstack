@@ -1,5 +1,5 @@
 base:
-  'salt-minion1.corp.local':
+  'G@clientType:genericApp':
     - vim
     - nc
     - directory
