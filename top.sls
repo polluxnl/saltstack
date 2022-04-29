@@ -1,5 +1,6 @@
 base:
-  'G@clientType:genericApp':
+  '*':
     - vim
+  'G@clientType:genericApp':
     - nc
     - directory
