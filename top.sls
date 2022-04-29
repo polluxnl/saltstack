@@ -1,5 +1,5 @@
 base:
-  'MinionsOnly':
+  'salt-minion1.corp.local':
     - vim
     - nc
     - directory
