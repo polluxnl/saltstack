@@ -1,3 +1,3 @@
 # Install NetCat
-nc:
+netcat:
   pkg.installed
