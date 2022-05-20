@@ -1,4 +1,4 @@
-/srv/repo/salt:
+/srv/repo/:
   file.directory:
     - user: root
     - group: root
@@ -7,5 +7,5 @@
 
 git_clone_pollux:
   git.cloned:
-    - name: https://github.com/polluxnl/saltstack.git
+    - name: https://github.com/polluxnl/saltstack
     - target: /srv/repo/salt
