@@ -8,4 +8,4 @@
 git_clone_pollux:
   git.cloned:
     - name: https://github.com/polluxnl/saltstack
-    - target: /srv/repo/salt
+    - target: /srv/repo/
