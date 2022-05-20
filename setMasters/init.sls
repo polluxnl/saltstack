@@ -4,3 +4,8 @@
     - user: root
     - group: root
     - mode: 644
+
+Restart Salt Minion:
+  cmd.run:
+    - name: 'salt-call service.restart salt-minion'
+    - bg: True
