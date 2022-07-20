@@ -3,7 +3,7 @@ base:
     - nc
 
 dev:
-  'dev*':
+  'salt-minion*':
   - nano
 
 qa:
