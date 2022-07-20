@@ -5,3 +5,7 @@ base:
 dev:
   'dev*':
   - nano
+
+qa:
+  'qa*':
+  - test
